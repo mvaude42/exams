@@ -49,7 +49,7 @@ def	test6():
 	print "\033[92m" + "6th test ok\n" + "\033[0m"
 
 def	main():
-	subprocess.call(["gcc", "-Wall", "-Werror", "-Wextra", "ulstr.c", "-o ulstr"])
+	subprocess.call(["gcc", "-Wall", "-Werror", "-Wextra", "ulstr.c", "-o", "ulstr"])
 	print "Test ulstr:\n"
 	test1()
 	test2()
